@@ -1,0 +1,12 @@
+enabled: true
+pull_request: true
+restylers_version: stable
+exclude:
+  -"**/node_modules/**/*"
+  -"**/*.iml"
+  -"**/.idea/**/*"
+restylers:
+  - prettier:
+      include:
+        - "**/*.js"
+
